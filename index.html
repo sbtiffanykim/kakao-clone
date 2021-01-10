@@ -36,11 +36,22 @@
       </p>
     </header>
 
-    <form id="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" minlength="8" placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <a href="#">Find Kokoa Account or Password</a>
+    <form action="friends.html" method="GET" class="login-form">
+      <input
+        name="username"
+        type="text"
+        class="login-form__input"
+        placeholder="Email or phone number"
+      />
+      <input
+        name="password"
+        type="password"
+        class="login-form__input"
+        minlength="8"
+        placeholder="Password"
+      />
+      <input type="submit" class="login-form__btn" value="Log In" />
+      <a href="#" class="login-form__a">Find Kokoa Account or Password</a>
     </form>
   </body>
 </html>
