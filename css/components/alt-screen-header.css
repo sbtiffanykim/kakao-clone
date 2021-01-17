@@ -7,9 +7,13 @@
   align-items: center;
 }
 
+.alt-screen-header__column {
+  width: 33%;
+}
+
 .alt-header__title {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 25px;
 }
 
 .alt-header__column:first-child {
@@ -17,6 +21,16 @@
   font-size: 1.5rem;
 }
 
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
+
 .alt-header__column:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alt-header__column span:last-child {
+  margin-left: 20px;
 }
