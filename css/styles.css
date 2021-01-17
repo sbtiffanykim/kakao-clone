@@ -15,4 +15,6 @@
 body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
+  height: 120vh;
+  margin: 5px;
 }

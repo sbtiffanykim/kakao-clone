@@ -28,3 +28,47 @@
   color: rgba(0, 0, 0, 0.5);
   font-size: 15px;
 }
+
+.friends-icon {
+  height: 60px;
+  width: 60px;
+  border-radius: 25px;
+  color: white;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.friends-icon-birthday {
+  background-color: salmon;
+}
+
+.friends-icon-smile {
+  background-color: darkslateblue;
+  opacity: 85%;
+}
+
+.friends-icon-channel {
+  background-color: rgb(235, 235, 15);
+  color: black;
+  border: 1px solid rgba(216, 151, 54, 0.822);
+  position: relative;
+}
+
+.friends-icon-channel span {
+  position: absolute;
+  font-size: 17px;
+  color: rgb(235, 235, 15);
+  left: 19px;
+  bottom: 23px;
+}
+
+.friends__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.friends__column div {
+  margin-bottom: 10px;
+}
