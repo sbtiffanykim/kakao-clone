@@ -43,6 +43,17 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+.user-component {
+  position: relative;
+}
+
+.user-component__text i {
+  color: tomato;
+  position: absolute;
+  bottom: 26px;
+  left: 220px;
+}
+
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.4);
   display: flex;
