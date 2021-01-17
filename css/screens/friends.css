@@ -5,6 +5,7 @@
   padding: 15px 0px;
   font-size: 16px;
   margin-bottom: 10px;
+  margin-top: -15px;
 }
 
 #friends-display-link i {
@@ -17,7 +18,7 @@
 
 .friends-screen__divider {
   margin-top: 25px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--main-border);
   padding-top: 15px;
 }
 
@@ -25,7 +26,8 @@
   display: flex;
   margin-bottom: 15px;
   justify-content: space-between;
-  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+  color: var(--default-gray);
   font-size: 15px;
 }
 
@@ -52,14 +54,14 @@
 .friends-icon-channel {
   background-color: rgb(235, 235, 15);
   color: black;
-  border: 1px solid rgba(216, 151, 54, 0.822);
   position: relative;
 }
 
 .friends-icon-channel span {
   position: absolute;
-  font-size: 17px;
+  font-size: 16px;
   color: rgb(235, 235, 15);
+  font-family: "Open Sans", sans-serif;
   left: 19px;
   bottom: 23px;
 }
@@ -71,4 +73,8 @@
 
 .friends__column div {
   margin-bottom: 10px;
+}
+
+.my__name {
+  font-size: 25px;
 }
