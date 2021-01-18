@@ -13,6 +13,7 @@
   width: 70px;
   border-radius: 28px;
   margin-right: 20px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 .user-component__avatar--xl {

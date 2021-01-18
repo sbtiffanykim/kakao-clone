@@ -1,0 +1,34 @@
+#no-mobile {
+    position: absolute;
+    z-index: 99;
+    height:100vh;
+    width: 100vw;
+    background-color: #ef8909;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#no-mobile img {
+    width: 100vw;
+    height: 90vh;
+}
+
+#no-mobile > div {
+    position: absolute;
+    bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.925);
+    padding: 15px;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
+
+}
+
+@media screen and (max-width: 645px) {
+    #no-mobile {
+        display: none;
+    }
+}
